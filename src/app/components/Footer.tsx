@@ -2,9 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-black py-16 border-t border-white/5">
@@ -13,8 +13,8 @@ const Footer = () => {
           {/* Logo & About */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-6 group">
-              <div className="w-10 h-10 rounded-full overflow-hidden border border-orange-500/30 group-hover:scale-105 transition-transform">
-                <img src="/assets/favicon.ico" alt="Logo" className="w-full h-full object-cover" />
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-orange-500/30 group-hover:scale-105 transition-transform relative">
+                <Image src="/assets/favicon.ico" alt="Logo" fill className="object-cover" />
               </div>
               <span className="text-xl font-bold tracking-tight text-white font-heading">
                 DriveGo<span className="text-orange-500">India</span>

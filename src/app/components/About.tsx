@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -22,7 +23,7 @@ const About = () => {
                             Rental in <span className="text-gradient">India</span>
                         </h3>
                         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-                            DriveGoIndia was founded on a simple principle: providing high-quality vehicles with a seamless booking experience. Whether you're a tourist exploring new cities or a local needing a reliable ride, we've got you covered.
+                            DriveGoIndia was founded on a simple principle: providing high-quality vehicles with a seamless booking experience. Whether you&apos;re a tourist exploring new cities or a local needing a reliable ride, we&apos;ve got you covered.
                         </p>
                         <div className="grid grid-cols-2 gap-8">
                             <div>
@@ -43,11 +44,12 @@ const About = () => {
                         viewport={{ once: true }}
                         className="relative"
                     >
-                        <div className="aspect-square rounded-3xl overflow-hidden glass p-2">
-                            <img
+                        <div className="aspect-square rounded-3xl overflow-hidden glass p-2 relative">
+                            <Image
                                 src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&q=80&w=2070"
                                 alt="Luxury Car"
-                                className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
+                                fill
+                                className="object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
                             />
                         </div>
                         {/* Abstract decoration */}

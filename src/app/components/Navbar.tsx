@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -32,11 +33,12 @@ const Navbar = () => {
           } border`}
       >
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-orange-500/50 group-hover:scale-105 transition-transform">
-            <img
+          <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-orange-500/50 group-hover:scale-105 transition-transform relative">
+            <Image
               src="/assets/favicon.ico"
               alt="DriveGoIndia Logo"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
           <span className="text-2xl font-black tracking-tighter text-white font-heading">

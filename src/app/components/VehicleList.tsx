@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Vehicle {
     id: number;
@@ -29,10 +30,11 @@ const VehicleCard = ({ vehicle }: { vehicle: Vehicle }) => {
             className="glass rounded-3xl overflow-hidden group border border-white/5 hover:border-orange-500/30 transition-all card-gradient"
         >
             <div className="aspect-[4/3] overflow-hidden relative">
-                <img
+                <Image
                     src={vehicle.image}
                     alt={vehicle.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute top-4 right-4 px-3 py-1 bg-green-600 rounded-full text-xs font-bold text-white shadow-lg">
                     {vehicle.price}

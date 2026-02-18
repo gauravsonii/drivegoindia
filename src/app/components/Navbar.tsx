@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-orange-500/50 group-hover:scale-105 transition-transform">
             <img
-              src="/assets/drivegoindia.jpeg"
+              src="/assets/favicon.ico"
               alt="DriveGoIndia Logo"
               className="w-full h-full object-cover"
             />

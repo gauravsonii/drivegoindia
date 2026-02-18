@@ -13,7 +13,7 @@ const services = [
             </svg>
         ),
         link: "#cars",
-        color: "from-black via-black/80 to-orange-600/40",
+        color: "from-orange-600/20 via-black to-green-600/20",
         border: "border-orange-500/30"
     },
     {
@@ -25,7 +25,7 @@ const services = [
             </svg>
         ),
         link: "#bikes",
-        color: "from-black via-black/80 to-orange-500/40",
+        color: "from-orange-600/20 via-black to-green-600/20",
         border: "border-orange-500/30"
     },
     {
@@ -37,7 +37,7 @@ const services = [
             </svg>
         ),
         link: "#scooters",
-        color: "from-black via-black/80 to-orange-600/40",
+        color: "from-orange-600/20 via-black to-green-600/20",
         border: "border-orange-500/30"
     },
 ];

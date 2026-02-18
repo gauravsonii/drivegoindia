@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/svg+xml" href="./assets/logo.png" />
+        <link rel="icon" href="/assets/favicon.ico" />
       </head>
 
       <body

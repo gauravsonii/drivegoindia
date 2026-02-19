@@ -16,7 +16,7 @@ const cars = [
     type: "SUV",
     image: "/images/scorpios11.png",
     details: "Rugged and powerful SUV, perfect for tough terrains and group travel.",
-    price: "₹1200/Day",
+    price: "₹271/Hour",
     contact: "+917999663197"
   },
   {
@@ -25,7 +25,7 @@ const cars = [
     type: "SUV",
     image: "/images/scorpion.png",
     details: "The modern beast with advanced features and superior comfort.",
-    price: "₹1200/Day",
+    price: "₹340/Hour",
     contact: "+917999663197"
   },
   {
@@ -34,7 +34,7 @@ const cars = [
     type: "Off-Roader",
     image: "/images/thar.png",
     details: "Ultimate off-roading experience with iconic design and raw power.",
-    price: "₹1200/Day",
+    price: "₹229/Hour",
     contact: "+917999663197"
   },
   {
@@ -43,7 +43,7 @@ const cars = [
     type: "Hatchback",
     image: "/images/glanzatoyota.png",
     details: "Premium hatchback with excellent fuel efficiency and smooth drive.",
-    price: "₹1200/Day",
+    price: "₹145/Hour",
     contact: "+917999663197"
   },
   {
@@ -52,7 +52,7 @@ const cars = [
     type: "Sedan",
     image: "/images/aurahayundai.png",
     details: "Elegant sedan with modern features, ideal for city and family trips.",
-    price: "₹1200/Day",
+    price: "₹155/Hour",
     contact: "+917999663197"
   },
   {
@@ -61,7 +61,7 @@ const cars = [
     type: "Hatchback",
     image: "/images/shiftmaruti.png",
     details: "A popular choice for its agile handling and reliable performance.",
-    price: "₹1200/Day",
+    price: "₹105/Hour",
     contact: "+917999663197"
   },
   {
@@ -70,7 +70,7 @@ const cars = [
     type: "SUV/Crossover",
     image: "/images/fronxnexa.png",
     details: "Stylish and modern crossover with great ground clearance and tech.",
-    price: "₹1200/Day",
+    price: "₹145/Hour",
     contact: "+917999663197"
   },
   {
@@ -79,7 +79,7 @@ const cars = [
     type: "SUV",
     image: "/images/naxontata.png",
     details: "India's safest SUV with a bold design and powerful performance.",
-    price: "₹1200/Day",
+    price: "₹150/Hour",
     contact: "+917999663197"
   },
   {
@@ -88,7 +88,7 @@ const cars = [
     type: "MUV",
     image: "/images/ertigamaruti.png",
     details: "Space for everyone. Perfect MUV for large families and long journeys.",
-    price: "₹1200/Day",
+    price: "₹187/Hour",
     contact: "+917999663197"
   },
   {
@@ -97,7 +97,7 @@ const cars = [
     type: "Luxury SUV",
     image: "/images/foutunertoyota.png",
     details: "The king of SUVs. Unmatched presence, power, and premium luxury.",
-    price: "₹1200/Day",
+    price: "₹355/Hour",
     contact: "+917999663197"
   }
 ];
@@ -130,7 +130,7 @@ const scooters = [
     type: "Scooter",
     image: "/images/honda125.png",
     details: "Reliable and efficient scooter for smooth city commuting.",
-    price: "₹800/Day",
+    price: "₹300/Day",
     contact: "+917999663197"
   },
   {
@@ -139,7 +139,7 @@ const scooters = [
     type: "Scooter",
     image: "/images/tvsjupiter.png",
     details: "User-friendly and comfortable scooter with great fuel economy.",
-    price: "₹800/Day",
+    price: "₹300/Day",
     contact: "+917999663197"
   }
 ];

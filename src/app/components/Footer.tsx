@@ -1,10 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import TermsModal from "./TermsModal";
 
 const Footer = () => {
+  const [isTermsOpen, setIsTermsOpen] = useState(false);
 
   return (
     <footer className="bg-black py-16 border-t border-white/5">
@@ -97,10 +99,17 @@ const Footer = () => {
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-6">
             <Link href="#" className="text-gray-600 hover:text-white transition-colors uppercase text-[10px] tracking-widest font-bold font-body">Privacy Policy</Link>
-            <Link href="#" className="text-gray-600 hover:text-white transition-colors uppercase text-[10px] tracking-widest font-bold font-body">Terms of Service</Link>
+            <button
+              onClick={() => setIsTermsOpen(true)}
+              className="text-gray-600 hover:text-white transition-colors uppercase text-[10px] tracking-widest font-bold font-body outline-none"
+            >
+              Terms of Service
+            </button>
           </div>
         </div>
       </div>
+
+      <TermsModal isOpen={isTermsOpen} onClose={() => setIsTermsOpen(false)} />
     </footer>
   );
 };

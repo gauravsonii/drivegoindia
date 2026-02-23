@@ -63,7 +63,7 @@ const Navbar = () => {
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <a
-            href="tel:+917999663197"
+            href="tel:+919479488874"
             className="px-6 py-2.5 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-500 hover:to-orange-600 text-white rounded-full font-bold text-sm transition-all shadow-lg shadow-orange-500/20"
           >
             Book Now
@@ -121,7 +121,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="tel:+917999663197"
+                href="tel:+919479488874"
                 onClick={() => setIsOpen(false)}
                 className="mt-4 w-full py-4 bg-orange-600 text-white rounded-2xl text-center font-bold text-xl"
               >

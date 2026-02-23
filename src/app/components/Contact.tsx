@@ -27,7 +27,7 @@ const Contact = () => {
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                             <a
-                                href="tel:+917999663197"
+                                href="tel:+919479488874"
                                 className="group flex items-center justify-center gap-4 py-5 px-10 bg-orange-600 hover:bg-orange-700 text-white rounded-full font-bold text-xl transition-all shadow-xl shadow-orange-500/20 w-full sm:w-auto"
                             >
                                 <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -39,7 +39,7 @@ const Contact = () => {
                             </a>
 
                             <a
-                                href="https://wa.me/917999663197"
+                                href="https://wa.me/+919479488874"
                                 className="group flex items-center justify-center gap-4 py-5 px-10 bg-gradient-to-br from-black via-black/80 to-green-600/40 hover:to-green-600/60 text-white rounded-full font-bold text-xl transition-all w-full sm:w-auto font-body border border-green-500/30"
                             >
                                 <div className="w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
